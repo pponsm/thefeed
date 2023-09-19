@@ -1,0 +1,106 @@
+
+body {
+    background-color: #254655;
+    max-width: 1200px;
+    margin:auto; 
+}
+
+header { 
+    width: 400px;
+    position: fixed; 
+    top: 25px; 
+    left: 25px;
+    font-family: blakely, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3 {
+    color: #944D3B;
+    font-size: 45px;
+    margin: -5px;
+}
+
+h4 {
+    color: #DDA562;
+    font-size: 35px;
+}
+
+nav {
+    width: 400px;
+    position: fixed;
+    top: 200px;
+    left: 25px; 
+    font-family: blakely, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main {
+    width: 650px;
+    margin-left: 500px;
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #819182;
+}
+
+section {
+    margin-top: 25px;
+    padding: 25px;
+}
+
+section:hover {
+    background-color: #944D3B;
+    opacity: 75%;
+    border: 3px #295B6D solid;
+    border-radius: 20px;
+}
+
+section img {
+    display: block;
+    margin: auto;
+}
+section video {
+    display: block;
+    margin: auto;
+}
+
+section p {
+    text-align: center;
+}
+
+footer {
+    width: 400px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #819182;
+}
+
+#campgroundgif {
+    max-width: 625px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.static {
+    position:absolute;
+    background: none;
+  }
+  
+  .static:hover {
+    opacity:0;
+    border: 3px #295B6D solid;
+    border-radius: 20px;
+  }
+
+  .navigation {
+    background-color: blue;
+    opacity: 75%;
+  }

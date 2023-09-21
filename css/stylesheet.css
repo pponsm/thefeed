@@ -1,9 +1,9 @@
 
 body {
     background-color: #254655;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0; 
-    margin:auto; 
+    margin: auto; 
 }
 
 header { 
@@ -11,6 +11,16 @@ header {
     position: fixed; 
     top: 25px; 
     left: 25px;
+    font-family: blakely, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    width: 400px;
+    position: fixed;
+    top: 200px;
+    left: 25px; 
     font-family: blakely, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -27,28 +37,49 @@ h4 {
     font-size: 35px;
 }
 
-nav {
-    width: 400px;
-    position: fixed;
-    top: 200px;
-    left: 25px; 
-    font-family: blakely, sans-serif;
-    font-weight: 300;
+h5 a:link {
+    color: #DDA562;
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
     font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h5 a: visited {
+    color: #DDA562;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h5 a: hover{
+    color: #DDA562;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 main {
-    width: 650px;
+    width: 1200px;
     margin-left: 500px;
+    margin-right: 50px;
     font-family: brother-1816, sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #819182;
+    text-align: center;
+}
+
+p {
+    width: 600px;
+    margin-left: 300px;
+    text-align: center;
 }
 
 section {
     margin-top: 25px;
     padding: 25px;
+    border: 5px #819182 solid;
+    border-radius: 25px;
 }
 
 section img {
@@ -68,9 +99,9 @@ section p {
 
 footer {
     width: 400px;
-    position: fixed;
-    bottom: 25px;
-    left: 25px;
+    position: relative;
+    bottom: 15px;
+    left: 35%;
     font-family: brother-1816, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -106,7 +137,7 @@ footer {
     opacity: 50%;
 }
 
-.dailys {
+.feed {
     display: flex;
 }
 
@@ -115,3 +146,11 @@ footer {
     padding: 20px; 
 }
 
+.booktok {
+    display: flex;
+}
+
+.tiktok {
+    width: ; 
+    margin: 20px; 
+}

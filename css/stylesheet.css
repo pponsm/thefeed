@@ -16,6 +16,14 @@ header {
     font-style: normal;
 }
 
+h3 {
+    color: #944D3B;
+    font-size: 45px;
+    margin: -5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #254655;
+}
+
 nav {
     width: 400px;
     position: fixed;
@@ -24,20 +32,26 @@ nav {
     font-family: blakely, sans-serif;
     font-weight: 300;
     font-style: normal;
+    text-shadow: 1px 1px 2px #254655;
+    box-shadow: 10px 10px 5px #254655;
+    
 }
 
-h3 {
-    color: #944D3B;
-    font-size: 45px;
-    margin: -5px;
+nav p {
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: #DDA562;
 }
 
 h4 {
     color: #DDA562;
     font-size: 35px;
+    text-shadow: 1px 1px 2px #254655;
 }
 
-h5 a:link {
+a:link {
     color: #DDA562;
     font-family: brother-1816, sans-serif;
     font-weight: 200;
@@ -46,17 +60,18 @@ h5 a:link {
     text-decoration: none;
 }
 
-h5 a: visited {
-    color: #DDA562;
+a:visited {
+    color: #944D3B;
     font-size: 20px;
     text-decoration: none;
 }
 
-h5 a: hover{
-    color: #DDA562;
+a:hover{
+    color: #944D3B;
     font-size: 20px;
     text-decoration: none;
 }
+
 
 main {
     width: 1200px;
@@ -67,17 +82,19 @@ main {
     font-style: normal;
     color: #819182;
     text-align: center;
-}
-
-p {
-    width: 600px;
-    margin-left: 300px;
-    text-align: center;
+    text-shadow: 1px 1px 2px #3D5641;
+    font-size: 18px;
 }
 
 section {
     margin-top: 25px;
     padding: 25px;
+}
+
+section p {
+    width: 600px;
+    margin-left: 300px;
+    text-align: center;
 }
 
 section img {
@@ -101,10 +118,6 @@ video:hover {
     border-radius: 25px;
 }
 
-section p {
-    text-align: center;
-}
-
 footer {
     width: 400px;
     position: relative;
@@ -114,6 +127,12 @@ footer {
     font-weight: 200;
     font-style: normal;
     color: #819182;
+    font-size: 18px;
+    text-align: right;
+}
+
+::selection {
+    background: #944D3B;
 }
 
 #campgroundgif {
@@ -161,3 +180,11 @@ footer {
     width: ; 
     margin: 20px; 
 }
+
+.introduction {
+    width: 400px;
+    box-shadow: 10px 10px 5px #254655 ;
+}
+
+
+

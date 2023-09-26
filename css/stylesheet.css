@@ -26,6 +26,8 @@ h3 {
 
 nav {
     width: 400px;
+    height: 600px;
+    overflow-y: scroll;
     position: fixed;
     top: 200px;
     left: 25px; 
@@ -61,7 +63,7 @@ a:link {
 }
 
 a:visited {
-    color: #944D3B;
+    color: #DDA562;
     font-size: 20px;
     text-decoration: none;
 }
@@ -74,7 +76,7 @@ a:hover{
 
 
 main {
-    width: 1200px;
+    width: 800px;
     margin-left: 500px;
     margin-right: 50px;
     font-family: brother-1816, sans-serif;
@@ -85,7 +87,6 @@ main {
     text-shadow: 1px 1px 2px #3D5641;
     font-size: 18px;
 }
-
 section {
     margin-top: 25px;
     padding: 25px;
@@ -98,12 +99,15 @@ section p {
 }
 
 section img {
+    width: 350px;
     display: block;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 50px;
+    text-align: center;
 }
 section video {
     display: block;
+    padding: 25px;
     margin: auto;
     border-radius: 20px;
     text-align: center;
@@ -148,7 +152,7 @@ footer {
     background: none;
   }
   
-  .static:hover {
+.static:hover {
     opacity:0;
   }
 
